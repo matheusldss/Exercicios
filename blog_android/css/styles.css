@@ -1,0 +1,125 @@
+@font-face {
+    font-family: Android;
+    src: url(../fontes/idroid.otf);
+} 
+
+*{
+    margin: 0;
+}
+body{
+    background-color: rgba(1, 129, 59, 0.589);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.cabecalho{
+    margin: 0px;
+    background-image: linear-gradient(rgba(2, 212, 97, 0.541),rgba(0, 7, 0, 0.973));
+}
+header.cabecalho{
+    margin: 0;
+}
+.menu{
+    margin: 0;
+    text-align: left;
+    padding: 10px 10px 15px 10px;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.menu a:hover{
+    background-color: green;
+    border-radius: 10px;
+    transition: 0.5s;  
+}
+nav.menu{
+    margin: 0;
+    text-align: left;
+}
+h1{
+    text-align: center;
+    font-family: Android;
+    color: rgba(22, 119, 3, 0.76);
+    padding: 20px;
+}
+h1.tituloprincipal{
+    color: white;
+}
+h1.titulodegrade{
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.281),white);
+    padding: 0px 0px 0px 0px
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 35px 35px 35px;
+}
+p{
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px 20px 0px 20px;
+}
+strong a{
+    color: rgb(1, 48, 1);
+    text-decoration: none;
+}
+main{
+    background-color: white;
+    margin: 0px 200px 0px 200px;
+}
+.dandroids {
+ text-align: center;
+}
+.irinablok {
+    text-align: center;
+    
+}
+.bugdroid {
+    text-align: center;
+}
+.videoandroid{
+    text-align: center;
+    background-color: rgb(46, 77, 0);
+   padding: 20px 0px 20px 10px;
+}
+.quersabermais {
+    background-color: #C5EBD6;
+    border-radius: 15px;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    margin: 15px 15px 15px 15px;
+}
+
+h3 {
+    background-color: #2FA866;
+    padding: 10px;
+    margin: 0;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    color: white;
+}
+
+.versoes-android {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 25px;
+}
+
+.versoes-android ul {
+    list-style: none;
+    padding: 0;
+}
+.rodape{
+    background-color: #1A5C38;
+    color: white;
+    padding: 10px;
+}
