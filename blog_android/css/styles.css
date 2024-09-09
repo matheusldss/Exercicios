@@ -73,14 +73,19 @@ strong a{
 }
 main{
     background-color: white;
-    margin: 0px 200px 0px 200px;
+    margin: 0px 100px 0px 100px;
 }
-.dandroids {
+.dandroidshorizontal {
  text-align: center;
 }
-.irinablok {
+.dandroidsvertical{
+    display: none;
+}
+.irinablokgrande {
     text-align: center;
-    
+}
+.irinablokpequena{
+    display: none;
 }
 .bugdroid {
     text-align: center;
