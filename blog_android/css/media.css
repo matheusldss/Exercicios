@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 /*Telas grandes */
-
 @media screen and (max-width: 1024px) { 
     html, body {
         width: 100%;
@@ -62,7 +61,7 @@
 
     p {
         font-size: 14px;
-    
+        text-align: center;
     }
 
     .titulodegrade {
@@ -89,9 +88,9 @@
         text-align: center;
     }
 }
+
 /*Tablets */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-
     .dandroidshorizontal {
         display: none; /* Oculta a versão horizontal dos androids */
     }
@@ -119,6 +118,7 @@
         padding: 0px; /* Remove o espaçamento interno da imagem */
     }
 }
+
 /*Celular G */
 @media screen and (min-width: 425px) and (max-width: 767px) {
 
@@ -127,15 +127,16 @@
     }
 
     .dandroidsvertical {
-        display: block; /* Exibe a versão vertical dos androids */
+        display: flex; /* Exibe a versão vertical dos androids */
         text-align: center; /* Centraliza o conteúdo */
     }
 
     .dandroidsvertical img {
-        display: block; /* Garante que as imagens sejam exibidas em bloco */
-        text-align: center; /* Centraliza a imagem */
+        display: flex; /* Garante que as imagens sejam exibidas em bloco */
+        margin: 0 auto;
         width: 430px; /* Define a largura da imagem */
         height: auto; /* Mantém a proporção correta */
+
     }
 
     .irinablokgrande {
@@ -279,9 +280,7 @@
         text-align: center;
     }
 }
-
-
-
+/*CSS Menu*/
 @media screen and (max-width:730px) {
     .nav-bar{
         padding: 2% 5%;

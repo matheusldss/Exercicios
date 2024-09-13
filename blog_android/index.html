@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/media.css">
     <title>Tudo sobre o Bugdroid</title>
@@ -28,7 +29,9 @@
             <div class="mobile-menu-icon">
                 <button onclick="menuaparecer()"><img class="icon" src="img/menu_white_36dp.svg"></button>
             </div>
+
         </nav>
+
         <div class="mobile-menu">
             <ul>
                 <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
@@ -41,41 +44,56 @@
             </div>
             
         </div>
+
     </header>
-    </nav>
 
     <main class="conteudo">
         <h1>História do Mascote do Android</h1>
         <p>Provavelmente você sabe que o sistema operacional <strong>Android</strong>, mantido pelo <strong>Google</strong> é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas tavez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.</p>
-
         <br>
 
         <h1 class="titulodegrade">A primeira versão</h1>
         <br>
 
         <p>
-            A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado <strong><a href="#">Dan Morrill🔗</a></strong>. Ele conta que abriu o 
-           <strong> <a href="#">Inkscape🔗</a></strong>(software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.
-            </p>
+            A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado <strong><a href="https://androidcommunity.com/dan-morrill-shows-us-the-android-mascot-that-almost-was-20130103/" target="_blank">Dan Morrill🔗</a></strong>. Ele conta que abriu o 
+            <strong> <a href="https://inkscape.org/pt-br/" target="_blank">Inkscape🔗</a></strong>(software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.
+        </p>
 
+        <!--poderia também ter sido feito  da seguinte forma:
+            <picture>
+                <source media="(max-width: 670px)" srcset="imagens/dan-droids-pq.png">
+                <img src="imagens/dan-droids.png" alt="Dandroids">
+            </picture>    
+        -->
+          
+        
             <div class="dandroidshorizontal">
             <img src="imagens/dan-droids.png" alt="dandroidshorizontal">
             </div>
-
+            
             <div class="dandroidsvertical">
             <img src="imagens/dan-droids-pq.png" alt="dandroidsvertical">
             </div>
         <br>
-        <p>Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os Dandroids.</p>
+
+        <p class="especial">Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os Dandroids.</p>
         <br>
+
         <h1 class="titulodegrade">Surge um novo mascote</h1>
         <br>
 
         <p>A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. A ilustradora Russa 
-        <strong><a href="#">Irina Blok🔗</a></strong>, também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.
+        <strong><a href="https://www.irinablok.com/" target="_blank">Irina Blok🔗</a></strong>, também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.
         </p>
         <br>
-
+               <!--poderia também ter sido feito  da seguinte forma:
+            <picture>
+                <source media="(max-width: 600px)" srcset="imagens/irina-blok-pq.jpg">
+                <img src="imagens/irina-blok.jpg" alt="Dandroids">
+            </picture>    
+        -->
+          
             <div class="irinablokgrande">
             <img src="imagens/irina-blok.jpg" alt="irinablokgrande">
             </div>
@@ -84,9 +102,10 @@
                 <img src="imagens/irina-blok-pq.jpg" alt="irinablokpequena">
             </div>
         <br>
+
         <p>
         A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o Bugdroid, o novo mascote do Android.</p>
-        <br>
+       <br>
 
         <div class="bugdroid">
             <img src="imagens/bugdroid.png" alt="bugdroid">
@@ -100,35 +119,34 @@
         <div class="videoandroid">
         <iframe width="679" height="382" src="https://www.youtube.com/embed/l2UDgpLz20M" title="The next evolution of Android" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
-
     <br>
   
     <div class="quersabermais">
 
         <h3>Quer aprender mais?</h3>
-
         <br>
+
         <p>Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 1.5 até a 9.0.</p>
 
         <div class="versoes-android">
             <ul>
-               <li>✔️ 1.5 - Cupcake</li> 
-               <li>✔️ 1.6 - Donut</li>
-               <li>✔️ 3.0 - Eclair</li>
-               <li>✔️ 2.2 - Froyo</li>
-               <li>✔️ 2.3 - Gingerbread</li>
-               <li>✔️ 3.0 - Honeycomb</li>
-               <li>✔️ 4.0 - Ice Cream Sandwich</li>
+                <li>✔️ 1.5 - <abbr title="Bolo de Copo">CupCake</abbr></li>
+                <li>✔️ 1.6 - <abbr title="Rosquinha">Donut</abbr></li>
+                <li>✔️ 3.0 - <abbr title="Bomba de Chocolate">Eclair</abbr></li>
+                <li>✔️ 2.2 - <abbr title="Iogurte Congelado">Froyo</abbr></li>
+                <li>✔️ 2.3 - <abbr title="Pão de Gengibre">Gingerbread</abbr></li>
+                <li>✔️ 3.0 - <abbr title="Favo de Mel">Honeycomb</abbr></li>
+                <li>✔️ 4.0 - <abbr title="Sanduíche de Sorvete">Ice Cream Sandwich</abbr></li>
             </ul>
-
+        
             <ul>
-               <li>✔️ 4.1 - Jelly Bean</li>
-               <li>✔️ 4.4 - KitKat</li>
-               <li>✔️ 5.0 - Lollipop</li>
-               <li>✔️ 6.0 - Marshmallow</li>
-               <li>✔️ 7.0 - Nougat</li>
-               <li>✔️ 8.0 - Oreo</li>
-               <li>✔️ 9.0 - Pie</li>
+                <li>✔️ 4.1 - <abbr title="Jujuba">Jelly Bean</abbr></li>
+                <li>✔️ 4.4 - <abbr title="Chocolate KitKat">KitKat</abbr></li>
+                <li>✔️ 5.0 - <abbr title="Pirulito">Lollipop</abbr></li>
+                <li>✔️ 6.0 - <abbr title="Marshmallow">Marshmallow</abbr></li>
+                <li>✔️ 7.0 - <abbr title="Nougat (Torrone)">Nougat</abbr></li>
+                <li>✔️ 8.0 - <abbr title="Biscoito Oreo">Oreo</abbr></li>
+                <li>✔️ 9.0 - <abbr title="Torta">Pie</abbr></li>
             </ul>
         </div>
         <br>
@@ -136,7 +154,7 @@
         <p>Infelizmente, o Android Q não existiu, pois o Google resolveu pôr fim a essa divertida prática e começou a usar numerações, o que deu origem ao Android 10.</p>
         <br>
 
-        <p>Acesse aqui o site <strong><a href="#">Android History🔗</a></strong> para conhecer a sequência das versões "adocicadas" e o que cada uma trouxe para o sistema Android.</p>
+        <p>Acesse aqui o site <strong><a href="https://www.mobiletime.com.br/museu-movel/11/08/2023/o-nascimento-do-sistema-operacional-android/#:~:text=O%20nascimento%20do%20sistema%20operacional%20Android&text=H%C3%A1%20quase%2020%20anos%2C%20em,em%20Palo%20Alto%2C%20na%20Calif%C3%B3rnia." target="_blank">Android History🔗</a></strong> para conhecer a sequência das versões "adocicadas" e o que cada uma trouxe para o sistema Android.</p>
         <br>
     </div>
     <br>
@@ -145,11 +163,12 @@
 
     <br>
     <br>
+
     </div>
     </main>
 
     <footer class="rodape">
-        <p>Inspired by <strong>Gustavo Guanabara</strong> in <strong>Curso em video</strong></p>
+        <p>Inspired by <strong class="gustavoguanabara"><a href="https://gustavoguanabara.github.io/" target="_blank" rel="noopener noreferrer">Gustavo Guanabara</a></strong> in <strong>Curso em video</strong></p>
     </footer>
 
     <script src="js/js.js"></script>
