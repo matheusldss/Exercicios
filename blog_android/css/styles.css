@@ -82,12 +82,17 @@ header.cabecalho{
     padding: 10px 15px;
     border-radius: 5px;
 }
+.nav-list a {
+    transition: background-color 0.8s, padding 0.8s, color 0.7s;
+    border-radius: 10px;
+}
 
 .login-button a{
     text-decoration: none;
     color: var(--cor3);
     font-weight: bold;
     font-size: 100%;
+    transition: color 0.5s, padding 0.5s, border-radius 0.5s;      
 }
 .mobile-menu-icon{
     display: none;
@@ -96,11 +101,12 @@ header.cabecalho{
 .mobile-menu{
     display: none;
 }
-.nav-list a:hover{
+
+.nav-list a:hover {
     background-color: var(--cor7);
     border-radius: 10px;
-    transition: 0.5s;
-    padding: 6px 10px 6px 10px;  
+    transition: background-color 0.5s, padding 0.5s, color 0.5s;
+    padding: 6px 10px;
     color: black;
 }
 .login-button :hover{
